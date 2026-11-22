@@ -1,0 +1,33 @@
+AUDITORIA TRIPLA - M3-PRO-101-F04 PLACA-BASE OPERACAO 40
+
+{
+  "parenthesis_balance": 0,
+  "minimum_balance": 0,
+  "unterminated_string": false,
+  "forbidden_T": false,
+  "acadiso_lin": false,
+  "DIMDSEP": false,
+  "commands": true,
+  "header": true,
+  "columns": true,
+  "nine_phases": true,
+  "process_logic": true,
+  "parameters": true,
+  "resources": true,
+  "illustration": true,
+  "footer": true,
+  "layers": 12,
+  "size": 11651
+}
+
+REVISAO 1 - ANALISE DA SEQUENCIA
+Apos concluir as duas faces, o contorno e esquadrejado. O lado 1 cria datum lateral B; lado 2 define perpendicularidade; lado 3 fecha 180 paralelo a B; lado 4 fecha 260. Os quatro R10 sao executados no mesmo zero XY para manter tangencia.
+
+REVISAO 2 - PARAMETROS E CALCULOS
+D12, Vc140: n=3714 rpm, adotado 3710. z4, fz0.05: Vf=743 mm/min, adotado 740. Acabamento reduzido para 450 mm/min e ae0.20. Massa teorica do retangulo 260x180x10=3.674 kg; com quatro R10=3.667 kg, antes dos furos e rasgos. Cabecalho arredondado para 3.63 kg.
+
+REVISAO 3 - FIDELIDADE E AUTOLISP
+Folha criada do zero, uma operacao, cabecalho, quatro colunas, nove fases, recursos, parametros, sequencia dos quatro lados, diagonais, datum B, raios, inspecao e rodape. Namespace exclusivo e parenteses balanceados.
+
+VALIDACAO INDUSTRIAL
+Validar o metodo de fixacao conforme curso real da maquina. Grampos e batentes nao podem ocupar a trajetoria da fresa. Medir dimensoes e diagonais somente com a peca desfixada, limpa e estabilizada.

@@ -1,0 +1,33 @@
+AUDITORIA TRIPLA - M3-PRO-101-F03 PLACA-BASE OPERACAO 30
+
+{
+  "parenthesis_balance": 0,
+  "minimum_balance": 0,
+  "unterminated_string": false,
+  "forbidden_T": false,
+  "acadiso_lin": false,
+  "DIMDSEP": false,
+  "commands": true,
+  "header": true,
+  "columns": true,
+  "nine_phases": true,
+  "process_logic": true,
+  "parameters": true,
+  "resources": true,
+  "illustration": true,
+  "footer": true,
+  "layers": 14,
+  "size": 11752
+}
+
+REVISAO 1 - ANALISE DA SEQUENCIA
+A face criada na Op20 e usada como datum A. A segunda face e usinada ate 10.00 +/-0.15, estabelecendo paralelismo antes do esquadrejamento externo. Nove pontos de espessura sao obrigatorios; qualquer ponto abaixo de 9.85 reprova a operacao.
+
+REVISAO 2 - PARAMETROS E CALCULOS
+D63, Vc180: n=909 rpm, adotado 910. z5, fz0.10: Vf=455 mm/min, adotado 455. Desbaste ap0.5-0.8 e acabamento 0.30. Massa teorica em 265x185x10: 3.848 kg; o valor do cabecalho e aproximado porque o contorno ainda nao foi acabado.
+
+REVISAO 3 - FIDELIDADE E AUTOLISP
+Folha criada do zero, uma operacao, cabecalho completo, quatro colunas, nove fases, recursos separados, corte de fixacao, datum, cota final, mapa 3x3, inspecao e rodape. Namespace exclusivo e parenteses balanceados.
+
+VALIDACAO INDUSTRIAL
+Antes do acabamento, calcular a remocao pela menor espessura medida. Se nao houver sobremetal suficiente para atingir 10.00 mantendo todos os pontos entre 9.85 e 10.15, interromper e registrar nao conformidade.

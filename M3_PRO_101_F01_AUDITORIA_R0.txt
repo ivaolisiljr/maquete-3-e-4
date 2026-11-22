@@ -1,0 +1,32 @@
+AUDITORIA TRIPLA - M3-PRO-101-F01 PLACA-BASE OPERACAO 10
+
+{
+  "parenthesis_balance": 0,
+  "minimum_balance": 0,
+  "unterminated_string": false,
+  "forbidden_T": false,
+  "acadiso_lin": false,
+  "DIMDSEP": false,
+  "commands": true,
+  "complete_header": true,
+  "four_columns": true,
+  "nine_phases": true,
+  "technical": true,
+  "resources": true,
+  "illustration": true,
+  "footer": true,
+  "layers": 11,
+  "file_size_bytes": 11863
+}
+
+REVISAO 1 - ANALISE DA PECA E PROCESSO
+Folha criada do zero. A placa-base acabada e 260x180x10 e recebe bruto 265x185x12 em ASTM A36. Sobremetal: 2.5 mm por lado em planta e 2 mm na espessura total. Massa bruta calculada: 4.618 kg, arredondada no cabecalho para 4.62 kg.
+
+REVISAO 2 - FIDELIDADE AOS EXEMPLOS
+Cabecalho completo; quatro colunas; recursos e codigos separados; operacao dividida em nove fases; parametros; ilustracao cotada com bruto, acabado, ferramenta e sequencia; rodape escolar. O formato segue FOLHA DE PROCESSO_GISEIRA F1 e Processo Taca-Rev2.
+
+REVISAO 3 - AUTOLISP
+Namespace exclusivo M3P101F01, uma unica folha A3, limpeza seletiva, restauracao de variaveis, manipulador de erro, comandos GERAR/AUDITAR, parenteses balanceados e ausencia de T, acadiso.lin e DIMDSEP.
+
+VALIDACAO INDUSTRIAL
+Valores de 35-45 m/min e lamina M42 6-10 TPI sao parametros iniciais para A36 espessura 12. Confirmar tabela do fabricante da serra, largura do corte e estado da lamina antes de fabricar.

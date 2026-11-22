@@ -1,0 +1,28 @@
+AUDITORIA TRIPLA - M3-PRO-102-F01 PEDESTAL FRONTAL OPS 10/30
+
+{
+  "parenthesis_balance": 0,
+  "minimum_balance": 0,
+  "unterminated_string": false,
+  "forbidden_T": false,
+  "acadiso_lin": false,
+  "DIMDSEP": false,
+  "commands": true,
+  "fields": true,
+  "technical": true,
+  "views": true,
+  "layers": 8,
+  "size": 8322
+}
+
+REVISAO 1 - PROCESSO
+Folha 1 de 3: preparar dois brutos ASTM A36, usinar base 140x70x10, alma 120x145x10 e pre-usinar berco R69.5 com sobremetal radial de 0.5 mm para acabamento apos soldagem. Peso bruto calculado: 2.79 kg; carimbo corrigido para 2.79 kg.
+
+REVISAO 2 - PARAMETROS
+Parametros coerentes com os da placa-base: D63 Vc180/n910/Vf455 e D12 Vc140/n3710/Vf740. Para o berco, usar interpolacao CNC ou mesa rotativa, passo lateral maximo 1.5 mm e deixar sobremetal.
+
+REVISAO 3 - AUTOLISP
+Namespace M3F201, uma folha por arquivo, limpeza seletiva, tratamento de erro, restauracao das variaveis, comandos proprios e parenteses balanceados. Ausencia de T, acadiso.lin e DIMDSEP.
+
+PONTO CRITICO
+Nao finalizar R70 nem altura 95 antes da soldagem. Acabamento final deve ocorrer com o conjunto estabilizado para compensar distorcao.

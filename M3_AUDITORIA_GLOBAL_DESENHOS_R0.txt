@@ -1,0 +1,38 @@
+AUDITORIA GLOBAL DOS DESENHOS M3-PLN - R0
+
+ARQUIVOS LSP ENCONTRADOS: 34
+ARQUIVOS CORRENTES APOS EXCLUIR R0 SUPERADOS: 29
+ARQUIVOS ESTRUTURALMENTE APROVADOS: 34
+ARQUIVOS REPROVADOS: 0
+ARQUIVOS OBRIGATORIOS AUSENTES: 0
+
+VERSOES SUPERADAS QUE NAO DEVEM SER USADAS
+- M3-PRT-401 R0, substituida por R1 de quatro planetas.
+- M3-PRT-402 R0, substituida por R1.
+- M3-PRT-406 R0, substituida por R1 com quantidade 8.
+- M3-ASM-101 R0, substituida por R1.
+- M3-ASM-301 R0, substituida por R1.
+
+RESULTADO DA AUDITORIA ESTATICA
+- Parenteses balanceados em todos os arquivos correntes: True.
+- Strings fechadas em todos os arquivos correntes: True.
+- Comandos GERAR e AUDITAR presentes: True.
+- Variavel T ausente: True.
+- acadiso.lin ausente: True.
+- DIMDSEP ausente: True.
+- Conjunto obrigatorio completo: True.
+
+PENDENCIAS QUE EXIGEM AUTOCAD MECHANICAL 2025 PT-BR
+1. Gerar visualmente cada folha e verificar sobreposicoes, fontes e tipos de linha CENTER2/HIDDEN2.
+2. Modelar dentes involuta reais e validar fase, contato e backlash dos quatro planetas.
+3. Fechar os rebaixos axiais internos da carcaca para coroa e pilotos das tampas.
+4. Validar pilha axial dos eixos, rolamentos, engrenagens, cubo e tampas.
+5. Validar varredura da manivela e distancia minima de 12 mm da protecao.
+6. Determinar massa e centro de gravidade no modelo 3D.
+7. Executar giro de 360 graus e teste virtual de 100 voltas.
+
+DECISAO
+Os arquivos correntes estao APROVADOS NA AUDITORIA ESTATICA, mas permanecem como FINAL DE PROTOTIPO P0. Nao declarar liberacao para fabricacao final sem validacao dinamica no CAD.
+
+ARQUIVOS OBRIGATORIOS AUSENTES
+NENHUM

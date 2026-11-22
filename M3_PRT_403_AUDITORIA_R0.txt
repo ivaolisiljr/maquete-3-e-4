@@ -1,0 +1,30 @@
+AUDITORIA TRIPLA - M3-PRT-403 PINO PLANETARIO 1 R0
+
+{
+  "parenthesis_balance": 0,
+  "minimum_balance": 0,
+  "unterminated_string": false,
+  "forbidden_variable_T": false,
+  "acadiso_lin": false,
+  "DIMDSEP": false,
+  "commands": true,
+  "views": true,
+  "critical_data": true,
+  "wrong_namespace": false,
+  "namespace_layers": 11,
+  "file_size_bytes": 11514
+}
+
+REVISAO 1 - ENGENHARIA E GEOMETRIA
+APROVADO ESTATICAMENTE: corpo 10 g6 x 32; duas roscas axiais M5x0.8-6H com profundidade util 7 mm; furos previos 4.2 x 9 min.; chanfros 0.5 x 45 graus.
+Massa simplificada calculada: 0.018 kg, coerente com 0.019 kg no carimbo. Interface com furos 10 H7 das placas e dos planetas.
+A retencao axial P0 usa parafusos M5 e arruelas externas, torque maximo 4 N.m e trava-rosca removivel Loctite 243. As arruelas nao podem comprimir a engrenagem planetaria.
+
+REVISAO 2 - DESENHO TECNICO
+APROVADO ESTATICAMENTE: vista principal, vista de extremidade, corte longitudinal A-A, detalhe B, cotas, tolerancias, rugosidade, tratamento, notas, inspecao e carimbo.
+
+REVISAO 3 - AUTOLISP
+APROVADO ESTATICAMENTE: namespace M3P403, limpeza seletiva, error handler, restauracao de variaveis, comandos proprios, parenteses balanceados e ausencia de chamadas proibidas.
+
+VALIDACAO DINAMICA OBRIGATORIA
+Executar no AutoCAD Mechanical 2025 PT-BR. Conferir escala grafica 4:1, legibilidade, ajuste 10 H7/g6, comprimento util entre placas, interferencia das arruelas, profundidade real das roscas e folga axial final dos planetas de 0.20 a 0.40 mm.

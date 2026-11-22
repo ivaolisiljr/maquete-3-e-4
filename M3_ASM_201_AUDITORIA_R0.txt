@@ -1,0 +1,29 @@
+AUDITORIA TRIPLA - M3-ASM-201 CARCACA COROA TAMPAS R0
+
+{
+  "parenthesis_balance": 0,
+  "minimum_balance": 0,
+  "unterminated_string": false,
+  "forbidden_T": false,
+  "acadiso_lin": false,
+  "DIMDSEP": false,
+  "commands": true,
+  "views": true,
+  "critical_data": true,
+  "wrong_namespace": false,
+  "layers": 10,
+  "size": 7459
+}
+
+REVISAO 1 - ENGENHARIA DE MONTAGEM
+Aprovado estaticamente como arquitetura P0: carcaca P201 de comprimento 80, tampas P202/P203 de 10, coroa P305 de largura 15 e dois rolamentos 6202-2RS. Foram definidos trechos axiais independentes: pilotos das tampas em 0-4 e 76-80 mm; coroa em 32.5-47.5 mm. Isso elimina a ocupacao simultanea do mesmo trecho OD/ID124.
+Ponto a confirmar: a fixacao radial/axial da coroa por seis M4 em PCD112 deve ser acessivel pela janela e nao interferir nos planetas.
+
+REVISAO 2 - REPRESENTACAO
+Vista frontal montada, corte axial, alocacao axial, BOM, sequencia, torques, coaxialidade, batimentos, backlash e aceitacao presentes.
+
+REVISAO 3 - AUTOLISP
+Namespace M3A201, limpeza seletiva, tratamento de erro, restauracao de variaveis, comandos proprios e parenteses balanceados. Ausencia de T, acadiso.lin, DIMDSEP e namespace residual.
+
+VALIDACAO DINAMICA OBRIGATORIA
+Executar no AutoCAD Mechanical 2025 PT-BR. Modelar os trechos axiais reais do ID124, verificar tolerancias H7/h7/g6, montagem dos pilotos, acesso aos M4 da coroa, rolamentos nas tampas, eixos, engrenamento, vedacao e giro 360 graus. A carcaca individual devera ser revisada depois dessa confirmacao para incluir os ombros/rebaixos internos exatos.

@@ -1,0 +1,29 @@
+AUDITORIA TRIPLA - M3-PRT-701 MANIVELA R0
+
+{
+  "parenthesis_balance": 0,
+  "minimum_balance": 0,
+  "unterminated_string": false,
+  "forbidden_variable_T": false,
+  "acadiso_lin": false,
+  "DIMDSEP": false,
+  "commands": true,
+  "views": true,
+  "critical_data": true,
+  "wrong_namespace": false,
+  "namespace_layers": 9,
+  "file_size_bytes": 7652
+}
+
+REVISAO 1 - ENGENHARIA E ERGONOMIA
+P0 aprovado estaticamente: braco 140x25x8, cubo OD30x18, furo 12 H7, rasgo 4 JS9x1.8, distancia entre eixos 100, pino de manopulo 8 g6 e manopulo PA6 OD25x80. Massa simplificada: 0.358 kg; carimbo corrigido para 0.35 kg.
+Com torque de entrada de 2 N.m e raio de 0.10 m, forca nominal no manopulo = 20 N. O ensaio de 50 N corresponde a 5 N.m e cobre a sobrecarga estatica definida.
+
+REVISAO 2 - DESENHO TECNICO
+Vista frontal, lateral, corte do cubo, detalhe do manopulo, furo/chaveta, retencao M6, ajuste do manopulo, datums, controles, notas e plano de inspecao presentes.
+
+REVISAO 3 - AUTOLISP
+Namespace M3P701, limpeza seletiva, manipulador de erro, restauracao de variaveis, comandos proprios e parenteses balanceados. Ausencia de T, acadiso.lin, DIMDSEP e namespaces residuais.
+
+VALIDACAO DINAMICA
+Executar no AutoCAD Mechanical 2025 PT-BR. Validar montagem no eixo M3-PRT-501, retencao axial M6, chaveta 4x4, giro de 360 graus, alcance manual, distancia a tampa e protecao, folga do manopulo e carga de 50 N sem deformacao permanente.

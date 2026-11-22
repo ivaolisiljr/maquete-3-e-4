@@ -1,0 +1,30 @@
+AUDITORIA TRIPLA - M3-PRT-201 CARCACA CILINDRICA R0
+
+{
+  "parenthesis_balance": 0,
+  "minimum_balance": 0,
+  "unterminated_string": false,
+  "forbidden_variable_T": false,
+  "acadiso_lin": false,
+  "DIMDSEP": false,
+  "commands": true,
+  "views": true,
+  "critical_data": true,
+  "wrong_namespace": false,
+  "namespace_layers": 11,
+  "size": 7993
+}
+
+REVISAO 1 - ENGENHARIA E INTERFACES
+APROVADO ESTATICAMENTE COMO P0: corpo tubular OD140, ID124 H7, comprimento 80; dois flanges OD160 x 8; oito furos 6.6 em PCD148; janela superior 70 x 45 com raios R5; interface inferior com pedestais por quatro M8.
+Massa bruta simplificada calculada: 2.89 kg antes de detalhes, cordoes e usinagens; carimbo usa 5.5 kg conservador.
+O ID124 H7 recebe a coroa OD124 h7 e os pilotos das tampas OD124 h7. Essa coincidencia exige verificacao de montagem e pode requerer setores axiais distintos ou rebaixo dedicado; a folha marca P0 e exige validacao CAD antes de fabricar.
+
+REVISAO 2 - DESENHO TECNICO
+APROVADO ESTATICAMENTE: vista frontal, lateral, corte A-A, flanges, furação, janela, tabela de interfaces, datums, rugosidades, soldagem, pintura e plano de inspeção.
+
+REVISAO 3 - AUTOLISP
+APROVADO ESTATICAMENTE: namespace M3P201, limpeza seletiva, tratamento de erro, restauração de variáveis, comandos próprios, parênteses balanceados e ausência de variável T, acadiso.lin, DIMDSEP e namespaces residuais.
+
+VALIDACAO DINAMICA OBRIGATORIA
+Executar no AutoCAD Mechanical 2025 PT-BR. Validar alojamento da coroa, encaixes das tampas, espaço radial das engrenagens, janela/proteção, soldas, suportes, eixos coaxiais e giro completo. Confirmar especialmente a sequência axial dos diâmetros 124 para impedir conflito entre coroa e pilotos das tampas.

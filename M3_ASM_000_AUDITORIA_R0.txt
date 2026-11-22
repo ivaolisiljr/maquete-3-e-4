@@ -1,0 +1,30 @@
+AUDITORIA TRIPLA - M3-ASM-000 CONJUNTO GERAL R0
+
+{
+  "parenthesis_balance": 0,
+  "minimum_balance": 0,
+  "unterminated_string": false,
+  "forbidden_T": false,
+  "acadiso_lin": false,
+  "DIMDSEP": false,
+  "commands": true,
+  "views": true,
+  "critical_data": true,
+  "four_planet_repeat": true,
+  "wrong_namespace": false,
+  "layers": 17,
+  "size": 6881
+}
+
+REVISAO 1 - INTEGRACAO DE ENGENHARIA
+Aprovado estaticamente como conjunto geral P0: placa-base 260x180x10, pedestais casados com eixo a 95 mm, carcaca/tampas, dois eixos, trem planetario de quatro planetas a 90 graus, manivela de raio 100 e protecao de policarbonato.
+Interfaces criticas consolidadas: relacao 4:1, backlash 0.10-0.20, folga axial 0.20-0.40, coaxialidade 0.05, distancia de seguranca 12 mm e teste de 100 voltas.
+
+REVISAO 2 - REPRESENTACAO
+Vista frontal, vista lateral, detalhe do trem, BOM resumida, envelope, altura do eixo, protecao, manivela e controles de aceitacao presentes em uma unica folha A3.
+
+REVISAO 3 - AUTOLISP
+Namespace M3G000, 17 grupos de layers funcionais, limpeza seletiva, tratamento de erro, restauracao de variaveis, comandos proprios, parenteses balanceados e ausencia de T, acadiso.lin, DIMDSEP e namespace residual.
+
+VALIDACAO DINAMICA OBRIGATORIA
+Executar no AutoCAD Mechanical 2025 PT-BR. Confirmar todos os encaixes, rebaixos axiais da carcaca, rolamentos, fase dos quatro planetas, manivela, envelope da protecao, acesso aos fixadores, estabilidade, massa do conjunto, centro de gravidade, giro de 360 graus e ensaio de 100 voltas. Somente depois emitir revisao liberada para fabricacao.

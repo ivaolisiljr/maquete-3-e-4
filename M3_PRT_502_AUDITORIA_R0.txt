@@ -1,0 +1,30 @@
+AUDITORIA TRIPLA - M3-PRT-502 EIXO DE SAIDA R0
+
+{
+  "parenthesis_balance": 0,
+  "minimum_balance": 0,
+  "unterminated_string": false,
+  "forbidden_variable_T": false,
+  "acadiso_lin": false,
+  "DIMDSEP": false,
+  "commands": true,
+  "views": true,
+  "critical_data": true,
+  "wrong_namespace": false,
+  "namespace_layers": 10,
+  "size": 11044
+}
+
+REVISAO 1 - ENGENHARIA E INTERFACES
+APROVADO ESTATICAMENTE COMO ARQUITETURA P0: comprimento total 100 mm; dois assentos 15 k6 x 11 para rolamentos 6202-2RS; piloto do cubo 15 h6 x 18 com rasgo 5 P9 x 2.3; ponta de saida 12 h6 x 24 com chaveta 4x4x16; ombros 18; rosca externa M10x1.0 e furo axial M6-6H.
+Massa simplificada calculada: 0.121 kg; carimbo arredondado para 0.13 kg.
+Torque de projeto P0 na saida: 8 N.m continuo e 20 N.m de sobrecarga estatica, derivados da reducao nominal 4:1 aplicada aos valores de entrada do conjunto. Confirmar eficiencia e fator de servico antes da liberacao final.
+
+REVISAO 2 - DESENHO TECNICO
+APROVADO ESTATICAMENTE: vista longitudinal, vista da ponta de saida, detalhe de interfaces, cadeia dos comprimentos, ajustes, chavetas, roscas, rugosidades, batimentos, notas e plano de inspecao.
+
+REVISAO 3 - AUTOLISP
+APROVADO ESTATICAMENTE: namespace M3P502, limpeza seletiva, tratamento de erro, restauracao de variaveis, comandos proprios e parenteses balanceados; ausencia de variavel T, acadiso.lin, DIMDSEP e namespaces residuais.
+
+VALIDACAO DINAMICA OBRIGATORIA
+Executar no AutoCAD Mechanical 2025 PT-BR. Validar com cubo M3-PRT-503, placas M3-PRT-401/402, carcaca e tampas, dois rolamentos 6202, elemento de saida e retencoes. Confirmar posicao axial do porta-planetas, interferencia dos ombros com raios dos rolamentos, giro de 360 graus e capacidade de transmitir o torque sem escorregamento da chaveta.

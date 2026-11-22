@@ -1,0 +1,30 @@
+AUDITORIA TRIPLA - M3-PRT-406 ESPACADOR PLANETARIO R0
+
+{
+  "parenthesis_balance": 0,
+  "minimum_balance": 0,
+  "unterminated_string": false,
+  "forbidden_variable_T": false,
+  "acadiso_lin": false,
+  "DIMDSEP": false,
+  "commands": true,
+  "views": true,
+  "critical_data": true,
+  "wrong_namespace": false,
+  "namespace_layers": 11,
+  "file_size_bytes": 10371
+}
+
+REVISAO 1 - ENGENHARIA E CADEIA AXIAL
+APROVADO ESTATICAMENTE: anel OD16, ID10.2 H11, espessura 2.35 +/-0.05, quantidade 6, material bronze SAE 660. Massa unitaria calculada: 0.002468 kg; valor arredondado no carimbo: 0.0025 kg.
+Cadeia nominal: pino 32 menos duas placas de 6 = vao interno 20; planeta 15 + dois espacadores de 2.35 = 19.70; folga axial resultante = 0.30 mm, dentro da faixa 0.20-0.40 mm.
+Pior caso apenas pelas tolerancias dos espacadores: 0.20 a 0.40 mm, antes das variacoes das placas e engrenagem. Por isso, a folha exige selecao de pares e verificacao final com laminas calibradas.
+
+REVISAO 2 - DESENHO TECNICO
+APROVADO ESTATICAMENTE: vista frontal, lateral nao seccionada, corte A-A, cotas, tolerancias, pilha axial, notas, plano de inspecao, material, quantidade, massa e carimbo.
+
+REVISAO 3 - AUTOLISP
+APROVADO ESTATICAMENTE: namespace M3P406, limpeza seletiva, manipulador de erro, restauracao das variaveis, comandos proprios e parenteses balanceados. Ausencia de variavel T, acadiso.lin, DIMDSEP e namespaces residuais M3P401 a M3P405.
+
+VALIDACAO DINAMICA OBRIGATORIA
+Executar no AutoCAD Mechanical 2025 PT-BR. Conferir escala 8:1, legibilidade das cotas, pilha axial real das placas/planetas/pinos, selecao dos seis espacadores e giro livre dos tres planetas. Se a folga sair de 0.20-0.40 mm, ajustar a espessura por selecao ou retifica, sem alterar o pino.

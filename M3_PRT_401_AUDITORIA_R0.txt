@@ -1,0 +1,31 @@
+AUDITORIA TRIPLA - M3-PRT-401 PLACA PORTA-PLANETAS FRONTAL R0
+
+{
+  "parenthesis_balance": 0,
+  "minimum_balance": 0,
+  "unterminated_string": false,
+  "forbidden_variable_T": false,
+  "acadiso_lin": false,
+  "DIMDSEP": false,
+  "commands": true,
+  "views": true,
+  "dimensions": true,
+  "namespace_layers": 11,
+  "wrong_piece_refs": [],
+  "file_size_bytes": 10338
+}
+
+REVISAO 1 - ENGENHARIA E GEOMETRIA
+APROVADO ESTATICAMENTE: disco 90 x 6; tres furos 10 H7 no PCD60 a 120 graus; furo central 25 H7; tres furos 5.5 no PCD40 a 120 graus e defasados 60 graus dos pinos.
+Interfaces desenvolvidas P0: pino 10 g6, cubo piloto 25 g6 e uniao ao cubo por tres parafusos M5.
+Massa geometrica simplificada calculada: 0.262 kg. O carimbo usa 0.266 kg arredondado; confirmar no CAD apos chanfros.
+
+REVISAO 2 - DESENHO TECNICO
+APROVADO ESTATICAMENTE: vista frontal, lateral, corte completo A-A, tabela de interfaces, datums A/B, controles geometricos, notas, inspecao e carimbo.
+A vista lateral permanece separada do corte; hachura limitada ao material; furos atravessantes sem hachura.
+
+REVISAO 3 - AUTOLISP
+APROVADO ESTATICAMENTE: namespace M3P401, limpeza seletiva M3P401-*, manipulador de erro, restauracao das variaveis, comandos proprios, parenteses balanceados e ausencia de referencias residuais.
+
+VALIDACAO DINAMICA OBRIGATORIA
+Executar no AutoCAD Mechanical 2025 PT-BR. Conferir geracao das layers CENTER2/HIDDEN2 no template utilizado, alinhamento visual, montagem com placa traseira, pinos e cubo, paralelismo, giro dos tres planetas e folga axial 0.20-0.40 mm.

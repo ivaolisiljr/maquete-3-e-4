@@ -1,0 +1,29 @@
+AUDITORIA TRIPLA - M3-PRT-101 PLACA-BASE R0
+
+{
+  "parenthesis_balance": 0,
+  "minimum_balance": 0,
+  "unterminated_string": false,
+  "forbidden_T": false,
+  "acadiso_lin": false,
+  "DIMDSEP": false,
+  "commands": true,
+  "views": true,
+  "critical_data": true,
+  "wrong_namespace": false,
+  "layers": 9,
+  "size": 7429
+}
+
+REVISAO 1 - ENGENHARIA E INTERFACES
+P0 aprovado estaticamente: placa 260x180x10, cantos R10, oito rasgos 9x14 para os pedestais, quatro furos 11 em malha 220x140 para fixacao/pe de borracha. Massa calculada apos furos e rasgos: 3.58 kg, coerente com 3.58 kg corrigidos no carimbo.
+Os centros preliminares dos pedestais foram posicionados em X=75 e X=185 mm, separados por 110 mm. Esta posicao deve ser validada contra o comprimento real da carcaca, flanges e acesso aos parafusos.
+
+REVISAO 2 - DESENHO TECNICO
+Vistas superior, frontal e lateral, oito rasgos, quatro furos, padroes de fixacao, datums, planicidade, paralelismo, pintura, notas e plano de inspecao presentes.
+
+REVISAO 3 - AUTOLISP
+Namespace M3P101, limpeza seletiva, tratamento de erro, restauracao de variaveis, comandos proprios, parenteses balanceados e ausencia de T, acadiso.lin, DIMDSEP e namespaces residuais.
+
+VALIDACAO DINAMICA OBRIGATORIA
+Executar no AutoCAD Mechanical 2025 PT-BR. Validar posicoes dos pedestais M3-PRT-102/103, comprimento da carcaca e tampas, acesso aos M8, centro dos eixos, manivela, protecao e estabilidade. Ajustar apenas a posicao longitudinal dos grupos de rasgos se a montagem CAD exigir, preservando 260x180x10.

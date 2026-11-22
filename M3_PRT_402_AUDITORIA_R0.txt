@@ -1,0 +1,46 @@
+AUDITORIA TRIPLA - M3-PRT-402 PLACA PORTA-PLANETAS TRASEIRA R0
+
+{
+  "parenthesis_balance": 0,
+  "minimum_balance": 0,
+  "unterminated_string": false,
+  "forbidden_variable_T": false,
+  "contains_acadiso_lin": false,
+  "contains_DIMDSEP": false,
+  "generate_command": true,
+  "audit_command": true,
+  "views": {
+    "VISTA FRONTAL": true,
+    "VISTA LATERAL": true,
+    "CORTE A-A": true,
+    "INTERFACES E CONTROLES": true
+  },
+  "critical_dimensions": {
+    "%%c90": true,
+    "%%c10 H7": true,
+    "PCD %%c60": true,
+    "%%c25 H7": true,
+    "PCD %%c40": true,
+    "6 h11": true
+  },
+  "matched_pair_reference": true,
+  "wrong_namespace": false,
+  "namespace_layers": 11,
+  "file_size_bytes": 10401
+}
+
+REVISAO 1 - ENGENHARIA E GEOMETRIA
+APROVADO ESTATICAMENTE: disco 90 x 6; 3 furos 10 H7 no PCD60 a 120 graus; furo central 25 H7; 3 furos 5.5 no PCD40.
+A placa traseira forma par casado com M3-PRT-401. Recomenda-se usinar os furos do PCD60 com as duas placas fixadas e orientadas em conjunto, preservando a posicao relativa dos pinos.
+Interfaces P0: pinos 10 g6, piloto do cubo 25 g6 e uniao por tres parafusos M5.
+
+REVISAO 2 - DESENHO TECNICO
+APROVADO ESTATICAMENTE: vista frontal, lateral nao seccionada, corte A-A, tabela de interfaces, datums A/B, controles geometricos, notas, plano de inspecao e carimbo.
+A face B foi identificada como face interna voltada aos planetas. Foi adicionada a exigencia de marcacao de orientacao do par 401/402.
+
+REVISAO 3 - AUTOLISP
+APROVADO ESTATICAMENTE: namespace M3P402, limpeza seletiva M3P402-*, restauracao das variaveis, manipulador de erro, comandos proprios e parenteses balanceados.
+Nao foram encontradas referencias residuais ao namespace M3P401, variavel T, acadiso.lin ou DIMDSEP.
+
+VALIDACAO DINAMICA OBRIGATORIA
+Executar no AutoCAD Mechanical 2025 PT-BR. Conferir alinhamento visual da folha, montagem casada com M3-PRT-401, coaxialidade do furo central, posicao conjunta dos tres pinos, paralelismo das faces e folga axial final dos planetas de 0.20 a 0.40 mm.

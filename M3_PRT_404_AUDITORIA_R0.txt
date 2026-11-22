@@ -1,0 +1,32 @@
+AUDITORIA TRIPLA - M3-PRT-404 PINO PLANETARIO 2 R0
+
+{
+  "parenthesis_balance": 0,
+  "minimum_balance": 0,
+  "unterminated_string": false,
+  "forbidden_variable_T": false,
+  "acadiso_lin": false,
+  "DIMDSEP": false,
+  "generate_command": true,
+  "audit_command": true,
+  "views": true,
+  "critical_data": true,
+  "lot_controls": true,
+  "wrong_namespace": false,
+  "namespace_layers": 11,
+  "file_size_bytes": 11504
+}
+
+REVISAO 1 - ENGENHARIA E GEOMETRIA
+APROVADO ESTATICAMENTE: corpo 10 g6 x 32; duas roscas internas M5x0.8-6H, profundidade util 7 mm; furos previos 4.2 x 9 min.; chanfros 0.5 x 45 graus.
+Pino 2 integrante do lote casado M3-PRT-403/404/405. Diferenca maxima de diametro entre pinos: 0.005 mm; diferenca maxima de comprimento: 0.02 mm.
+Interface com furos 10 H7 das placas e dos planetas; retencao externa por parafusos M5, arruelas e trava-rosca removivel.
+
+REVISAO 2 - DESENHO TECNICO
+APROVADO ESTATICAMENTE: vista principal, vista de extremidade, corte longitudinal A-A, detalhe B, cotas, ajuste, rugosidade, cilindricidade, tratamento, notas, inspecao e carimbo.
+
+REVISAO 3 - AUTOLISP
+APROVADO ESTATICAMENTE: namespace exclusivo M3P404, limpeza seletiva, manipulador de erro, restauracao das variaveis, comandos proprios e parenteses balanceados. Ausencia de referencias residuais ao namespace M3P403.
+
+VALIDACAO DINAMICA OBRIGATORIA
+Executar no AutoCAD Mechanical 2025 PT-BR. Conferir escala 4:1, ajuste 10 H7/g6, profundidade das roscas, interferencia das arruelas, equivalencia do lote P403/P404/P405 e folga axial dos planetas de 0.20 a 0.40 mm.

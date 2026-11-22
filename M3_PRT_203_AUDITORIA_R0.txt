@@ -1,0 +1,30 @@
+AUDITORIA TRIPLA - M3-PRT-203 TAMPA TRASEIRA R0
+
+{
+  "parenthesis_balance": 0,
+  "minimum_balance": 0,
+  "unterminated_string": false,
+  "forbidden_variable_T": false,
+  "acadiso_lin": false,
+  "DIMDSEP": false,
+  "commands": true,
+  "views": true,
+  "critical_data": true,
+  "wrong_namespace": false,
+  "namespace_layers": 11,
+  "size": 8259
+}
+
+REVISAO 1 - ENGENHARIA E INTERFACES
+APROVADO ESTATICAMENTE COMO P0: disco OD160 x 10; piloto OD123.95 g6 x 4 para carcaca 124 H7; alojamento 35 H7 x 11 para rolamento 6202-2RS; passagem do eixo de saida 25 H11; oito furos 6.6 em PCD148.
+Massa simplificada calculada: 1.84 kg, coerente com 1.84 kg no carimbo.
+A tampa traseira utiliza a mesma familia dimensional da tampa frontal, mas sua interface funcional foi revisada para o eixo M3-PRT-502, o cubo M3-PRT-503 e o porta-planetas. O piloto 123.95 g6 deve ocupar rebaixo axial dedicado e nao pode colidir com a coroa 124 h7.
+
+REVISAO 2 - DESENHO TECNICO
+APROVADO ESTATICAMENTE: vista frontal, lateral, corte A-A, alojamento do rolamento, piloto, passagem do eixo, furacao, tabela de interfaces, datums, rugosidades, montagem e inspecao.
+
+REVISAO 3 - AUTOLISP
+APROVADO ESTATICAMENTE: namespace M3P203, limpeza seletiva, tratamento de erro, restauracao de variaveis, comandos proprios, parenteses balanceados e ausencia de variavel T, acadiso.lin, DIMDSEP e referencia residual M3P202.
+
+VALIDACAO DINAMICA OBRIGATORIA
+Executar no AutoCAD Mechanical 2025 PT-BR. Validar encaixe com M3-PRT-201, rolamento 6202, eixo M3-PRT-502, cubo M3-PRT-503, posicao axial do porta-planetas, folga do ombro e retencoes. Confirmar canal de O-ring e eventual retentor 15x25x5 somente apos escolha de componente comercial.

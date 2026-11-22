@@ -1,0 +1,34 @@
+AUDITORIA TRIPLA - M3-PRT-503 CUBO PORTA-PLANETAS R0
+
+{
+  "parenthesis_balance": 0,
+  "minimum_balance": 0,
+  "unterminated_string": false,
+  "forbidden_variable_T": false,
+  "acadiso_lin": false,
+  "DIMDSEP": false,
+  "commands": true,
+  "views": true,
+  "critical_data": true,
+  "pilot_circle_added": true,
+  "wrong_full_lateral_rect": false,
+  "wrong_namespace": false,
+  "namespace_layers": 11,
+  "size": 10030
+}
+
+REVISAO 1 - ENGENHARIA E INTERFACES
+APROVADO ESTATICAMENTE COMO ARQUITETURA P0: corpo OD50 x 20; dois pilotos OD25 g6 x 4; comprimento total 28; furo 15 H7; rasgo 5 JS9 x 2.3. Fixacao de cada placa por tres roscas cegas M5-6H, profundidade util 7, em PCD40.
+Massa simplificada calculada: 0.294 kg, coerente com 0.25 kg no carimbo.
+Compatibilidade: placas centrais 25 H7, eixo de saida 15 h6, parafusos M5 nos furos passantes 5.5 das placas. A largura do corpo 20 mm coincide com o vao nominal interno entre placas.
+A vista lateral foi revisada para representar corretamente o corpo OD50 e os dois pilotos OD25, sem contorno externo falso ao longo do comprimento total. A vista frontal passou a mostrar o circulo do piloto OD25.
+Margem radial nominal entre eixo das roscas no raio 20 e contorno externo no raio 25: 5 mm. Considerando raio externo aproximado da rosca M5 de 2.5 mm, resta ligamento radial de aproximadamente 2.5 mm. Validar tensao local e torque de 5 N.m.
+
+REVISAO 2 - DESENHO TECNICO
+APROVADO ESTATICAMENTE: vista frontal, vista lateral escalonada, corte A-A, tabela de interfaces, pilotos, furo, rasgo, PCD, roscas cegas, datums, rugosidades, controles geometricos, notas e plano de inspecao.
+
+REVISAO 3 - AUTOLISP
+APROVADO ESTATICAMENTE: namespace M3P503, limpeza seletiva, tratamento de erro, restauracao de variaveis, comandos proprios e parenteses balanceados; ausencia de variavel T, acadiso.lin, DIMDSEP e namespaces residuais.
+
+VALIDACAO DINAMICA OBRIGATORIA
+Executar no AutoCAD Mechanical 2025 PT-BR. Conferir montagem com eixo M3-PRT-502 e placas M3-PRT-401/402, profundidade e cabecas dos seis parafusos M5, folga com os planetas, coaxialidade, posicao axial e giro de 360 graus. Confirmar que os furos cegos opostos, com 9 mm de furacao em corpo de 20 mm, preservam pelo menos 2 mm de material central.

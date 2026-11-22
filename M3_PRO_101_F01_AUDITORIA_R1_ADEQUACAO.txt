@@ -1,0 +1,29 @@
+AUDITORIA DE ADEQUACAO - M3-PRO-101-F01 R1
+
+{
+  "parenthesis_balance": 0,
+  "minimum_balance": 0,
+  "unterminated_string": false,
+  "forbidden_T": false,
+  "acadiso_lin": false,
+  "DIMDSEP": false,
+  "commands": true,
+  "four_columns": true,
+  "header_complete": true,
+  "footer_complete": true,
+  "separate_codes": true,
+  "operational_illustration": true,
+  "layers": 10,
+  "file_size_bytes": 9823
+}
+
+ADEQUACOES AO PADRAO DOS EXEMPLOS
+1. Corpo dividido em quatro colunas reais: descricao, recursos, No e ilustracao.
+2. Codigos M/F/D/I separados dos nomes dos recursos.
+3. Cabecalho completo: inicio, termino, responsavel, aprovacao, pesos, tempo da operacao, tempo total, operacao, material, dimensao bruta e folha.
+4. Rodape completo: revisao, data, assinatura, alteracoes, escola, aluno, numero, turma, curso e professor.
+5. Ilustracao operacional com estados bruto/acabado, ferramenta F01, dispositivo D01 e fixacao.
+6. Folha 01 de 04, reservando F04 ao registro de tempo no padrao dos exemplos.
+
+RESULTADO
+APROVADO NA AUDITORIA ESTATICA DE ADEQUACAO. A validacao visual final depende da geracao no AutoCAD Mechanical 2025 PT-BR.

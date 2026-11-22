@@ -1,0 +1,32 @@
+AUDITORIA TRIPLA - M3-PRT-103 PEDESTAL TRASEIRO R0
+
+{
+  "parenthesis_balance": 0,
+  "minimum_balance": 0,
+  "unterminated_string": false,
+  "forbidden_variable_T": false,
+  "contains_acadiso_lin": false,
+  "contains_DIMDSEP": false,
+  "generate_command": true,
+  "audit_command": true,
+  "views": true,
+  "critical_data": true,
+  "matched_pair_reference": true,
+  "wrong_namespace": false,
+  "namespace_layers": 9,
+  "file_size_bytes": 8210
+}
+
+REVISAO 1 - ENGENHARIA E INTERFACES
+APROVADO ESTATICAMENTE COMO P0: base 140x70x10, alma 120x145x10, berco R70 +0.20/0, altura do eixo 95+/-0.10, quatro rasgos 9x14 para M8 e dois furos 9 em passo 110 para a carcaca. Solda filete a6 continua nos dois lados com E7018.
+A M3-PRT-103 forma par casado com M3-PRT-102. Usinar as bases e os bercos na mesma preparacao ou em dispositivo comum. Diferenca maxima de altura entre centros do par: 0.05 mm.
+Massa de referencia: 1.6 kg, incluindo margem sobre o calculo geometrico simplificado de 1.53 kg.
+
+REVISAO 2 - DESENHO TECNICO
+APROVADO ESTATICAMENTE: vistas frontal, lateral e superior, berco, rasgos, furos, soldas, datums, planicidade, perpendicularidade, controles do par casado, notas e plano de inspecao.
+
+REVISAO 3 - AUTOLISP
+APROVADO ESTATICAMENTE: namespace M3P103, limpeza seletiva M3P103-*, manipulador de erro, restauracao das variaveis, comandos proprios e parenteses balanceados. Ausencia de variavel T, acadiso.lin, DIMDSEP e referencia residual ao namespace M3P102.
+
+VALIDACAO DINAMICA OBRIGATORIA
+Executar no AutoCAD Mechanical 2025 PT-BR. Conferir par M3-PRT-102/103, altura comum de 95 mm, contato dos bercos com a carcaca OD140, posicao dos M8 na placa-base 260x180, distancia entre pedestais, acesso aos parafusos, soldas, nivelamento e interferencia com tampas e protecao.

@@ -1,0 +1,27 @@
+AUDITORIA TRIPLA - M3-AUD-001 DECISAO CONFIGURACAO PLANETARIA
+
+{
+  "parenthesis_balance": 0,
+  "minimum_balance": 0,
+  "unterminated_string": false,
+  "forbidden_T": false,
+  "acadiso_lin": false,
+  "DIMDSEP": false,
+  "commands": true,
+  "content": true,
+  "wrong_namespace": false,
+  "layers": 8,
+  "size": 6836
+}
+
+REVISAO 1 - ENGENHARIA
+Decisao aprovada: usar quatro planetas a 90 graus. Para ZR=60 e ZS=20, (ZR+ZS)/4=20 inteiro. Tres planetas a 120 graus foram bloqueados porque 80/3=26.667, exigindo fase especial nao demonstrada. Relacao 4:1, modulo 1.5, angulo 20 graus e raio dos centros 30 mm permanecem.
+
+REVISAO 2 - IMPACTO DOCUMENTAL
+Revisar placas P401/P402 para quatro furos, criar planeta P307 e pino P407, alterar quantidade de P406 para oito, e revisar ASM-101/301. Desenhos de solar, coroa, eixos, carcaca, tampas, base, pedestais, manivela e protecao permanecem geometricamente aplicaveis, sujeitos a validacao do conjunto.
+
+REVISAO 3 - AUTOLISP
+Namespace M3D001, limpeza seletiva, tratamentos de erro e variaveis, comandos proprios, parenteses balanceados e ausencia de T, acadiso.lin e DIMDSEP.
+
+PROXIMA ACAO
+Emitir M3-PRT-401 R1 com quatro furos em PCD60 a 90 graus. Depois revisar P402, adicionar P307/P407, atualizar P406 e regenerar as montagens.

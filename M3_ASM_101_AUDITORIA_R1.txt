@@ -1,0 +1,33 @@
+AUDITORIA TRIPLA - M3-ASM-101 SUBCONJUNTO PORTA-PLANETAS R1
+
+{
+  "parenthesis_balance": 0,
+  "minimum_balance": 0,
+  "unterminated_string": false,
+  "forbidden_variable_T": false,
+  "acadiso_lin": false,
+  "DIMDSEP": false,
+  "commands": true,
+  "four_planet_repeat": true,
+  "ninety_degree_step": true,
+  "content": true,
+  "old_refs": false,
+  "views": true,
+  "wrong_namespace": false,
+  "layers": 8,
+  "size": 6810
+}
+
+REVISAO 1 - ENGENHARIA DE MONTAGEM
+APROVADO ESTATICAMENTE: placas M3-PRT-401/402 R1, cubo P503, quatro planetas P302/P303/P304/P307, quatro pinos P403/P404/P405/P407 e oito espacadores P406 R1. Centros no PCD60 a 90 graus, configuracao aprovada por M3-AUD-001.
+Pilha nominal individual preservada: vao 20.00, planeta 15.00, dois espacadores 4.70, folga 0.30 mm. Quatro folgas devem permanecer entre 0.20 e 0.40 mm, com diferenca maxima de 0.10 mm.
+Fixadores atualizados: seis M5 entre placas e cubo, oito M5 para retencao dos quatro pinos, total nominal de 14 parafusos M5.
+
+REVISAO 2 - REPRESENTACAO
+APROVADO ESTATICAMENTE: vista frontal com quatro planetas a 90 graus, corte axial, sequencia de montagem, BOM revisada e controles de aceitacao. Removidas referencias a tres planetas, tres pinos e seis espacadores.
+
+REVISAO 3 - AUTOLISP
+APROVADO ESTATICAMENTE: namespace M3A101, limpeza seletiva, tratamento de erro, restauracao de variaveis, comandos proprios, parenteses balanceados e ausencia de T, acadiso.lin e DIMDSEP. Laco frontal atualizado para quatro posicoes com passo pi/2.
+
+VALIDACAO DINAMICA OBRIGATORIA
+Executar no AutoCAD Mechanical 2025 PT-BR. Validar fase dos quatro planetas, coincidencia das placas R1, montagem do pino P407 e planeta P307, oito espacadores, cabecas e arruelas M5, quatro folgas axiais, paralelismo, coaxialidade e giro de 360 graus sem contato mutuo.

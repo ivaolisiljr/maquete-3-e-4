@@ -1,0 +1,33 @@
+AUDITORIA TRIPLA - M3-PRT-401 PLACA PORTA-PLANETAS FRONTAL R1
+
+{
+  "parenthesis_balance": 0,
+  "minimum_balance": 0,
+  "unterminated_string": false,
+  "forbidden_variable_T": false,
+  "acadiso_lin": false,
+  "DIMDSEP": false,
+  "generate_command": true,
+  "audit_command": true,
+  "four_planet_repeat": true,
+  "ninety_degree_step": true,
+  "critical_text": true,
+  "old_three_planet_geometry": false,
+  "views": true,
+  "namespace_layers": 11,
+  "file_size_bytes": 10379
+}
+
+REVISAO 1 - ENGENHARIA E GEOMETRIA
+APROVADO ESTATICAMENTE: disco OD90 x 6; quatro furos 10 H7 no PCD60, coordenadas (+/-30,0) e (0,+/-30), espacamento 90 graus; furo central 25 H7; tres furos 5.5 no PCD40 para fixacao ao cubo.
+A geometria anterior de tres planetas a 120 graus foi eliminada. A R1 implementa a decisao M3-AUD-001, cuja condicao de fase e (60+20)/4=20 inteiro.
+Massa simplificada recalculada: 0.258 kg; carimbo atualizado para 0.262 kg.
+
+REVISAO 2 - DESENHO TECNICO
+APROVADO ESTATICAMENTE: vista frontal atualizada com quatro furos, vista lateral, corte A-A, tabela de interfaces, datums A/B, controle de posicao, notas, inspecao e carimbo R1. O padrao de tres furos M5 do cubo foi preservado e permanece independente do padrao dos quatro pinos.
+
+REVISAO 3 - AUTOLISP
+APROVADO ESTATICAMENTE: namespace M3P401 preservado, limpeza seletiva, manipulador de erro, restauracao de variaveis, comandos proprios, parenteses balanceados e ausencia de T, acadiso.lin e DIMDSEP. Nao restaram textos nem lacos de tres planetas.
+
+VALIDACAO DINAMICA OBRIGATORIA
+Executar no AutoCAD Mechanical 2025 PT-BR. Confirmar quatro centros no PCD60 a 90 graus, montagem com planeta P307 e pino P407, espaco entre engrenagens, alinhamento com a placa traseira R1, fase dos dentes, backlash 0.10-0.20 mm e giro de 360 graus.

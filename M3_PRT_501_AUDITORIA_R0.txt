@@ -1,0 +1,30 @@
+AUDITORIA TRIPLA - M3-PRT-501 EIXO DE ENTRADA R0
+
+{
+  "parenthesis_balance": 0,
+  "minimum_balance": 0,
+  "unterminated_string": false,
+  "forbidden_variable_T": false,
+  "acadiso_lin": false,
+  "DIMDSEP": false,
+  "commands": true,
+  "views": true,
+  "critical_data": true,
+  "wrong_namespace": false,
+  "namespace_layers": 10,
+  "size": 11372
+}
+
+REVISAO 1 - ENGENHARIA E INTERFACES
+APROVADO ESTATICAMENTE COMO ARQUITETURA P0: comprimento total 110 mm; dois assentos 15 k6 x 11 para rolamentos 6202-2RS; assento solar 15 h6 x 18 com rasgo 5 P9 x 2.3; ponta de acionamento 12 h6 x 20 com chaveta 4x4x13; ombros 18; rosca externa M10x1.0 e furo axial M6-6H.
+Massa simplificada calculada pelos trechos cilindricos: 0.130 kg. O carimbo adota 0.15 kg como valor conservador, a confirmar no CAD apos rasgos, roscas e alivios.
+A revisao eliminou a incompatibilidade entre uma rosca externa M12 e o assento chaveado de 12 h6. A retencao da manivela passa a usar parafuso axial M6 no furo roscado da ponta esquerda.
+
+REVISAO 2 - DESENHO TECNICO
+APROVADO ESTATICAMENTE: vista longitudinal principal, vista da ponta de entrada, detalhe B dos ombros, cadeia de comprimentos, ajustes, chavetas, roscas, rugosidades, batimentos, notas e plano de inspecao.
+
+REVISAO 3 - AUTOLISP
+APROVADO ESTATICAMENTE: namespace M3P501, limpeza seletiva, tratamento de erro, restauracao de variaveis, comandos proprios, parenteses balanceados e ausencia de variavel T, acadiso.lin, DIMDSEP e namespaces residuais.
+
+VALIDACAO DINAMICA OBRIGATORIA
+Executar no AutoCAD Mechanical 2025 PT-BR. Validar axialmente com carcaca 80, duas tampas 10, rolamentos 6202 de largura 11, solar de largura 15, porca/arruela e manivela. Confirmar que ombros e alivios nao interferem nos raios dos rolamentos, que o engrenamento solar-planeta permanece centrado e que o giro de 360 graus ocorre sem contato com tampas ou protecao.

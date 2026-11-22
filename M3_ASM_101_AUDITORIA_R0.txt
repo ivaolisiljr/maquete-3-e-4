@@ -1,0 +1,28 @@
+AUDITORIA TRIPLA - M3-ASM-101 SUBCONJUNTO PORTA-PLANETAS R0
+
+{
+  "parenthesis_balance": 0,
+  "minimum_balance": 0,
+  "unterminated_string": false,
+  "forbidden_T": false,
+  "acadiso_lin": false,
+  "DIMDSEP": false,
+  "commands": true,
+  "views": true,
+  "critical_data": true,
+  "wrong_namespace": false,
+  "layers": 8,
+  "size": 6771
+}
+
+REVISAO 1 - ENGENHARIA DE MONTAGEM
+Aprovado estaticamente: duas placas P401/P402, cubo P503, planetas P302-P304, pinos P403-P405 e seis espacadores P406. Centros planetarios em PCD60 a 120 graus. Pilha nominal: placas 6+6, vao 20, planeta 15 e dois espacadores 2.35, resultando em folga axial 0.30 mm.
+
+REVISAO 2 - REPRESENTACAO
+Vista frontal montada, corte axial, sequencia de montagem, BOM e controles de aceitacao presentes. Identificadas folgas, torques, paralelismo, batimento e giro de 360 graus.
+
+REVISAO 3 - AUTOLISP
+Namespace M3A101, limpeza seletiva, tratamento de erro, restauracao de variaveis, comandos proprios e parenteses balanceados. Ausencia de T, acadiso.lin, DIMDSEP e namespace residual.
+
+VALIDACAO DINAMICA OBRIGATORIA
+Executar no AutoCAD Mechanical 2025 PT-BR. Verificar interferencia entre planetas, cabecas M5, prisionamento por arruelas, folga axial individual, paralelismo das placas, coaxialidade do cubo e giro livre. Nao liberar para fabricacao final antes dessa montagem CAD.

@@ -1,0 +1,31 @@
+AUDITORIA TRIPLA - M3-PRT-307 ENGRENAGEM PLANETARIA 4 - R0
+
+{
+  "parenthesis_balance": 0,
+  "minimum_balance": 0,
+  "unterminated_string": false,
+  "forbidden_variable_T": false,
+  "acadiso_lin": false,
+  "DIMDSEP": false,
+  "generate_command": true,
+  "audit_command": true,
+  "views": true,
+  "critical_data": true,
+  "lot_refs": true,
+  "wrong_namespace": false,
+  "namespace_layers": 12,
+  "file_size_bytes": 12726
+}
+
+REVISAO 1 - ENGENHARIA E GEOMETRIA
+APROVADO ESTATICAMENTE: engrenagem cilindrica reta externa, m=1.5, z=20, alfa=20 graus, d=30.000, da=33.000, df=26.250, db=28.191, largura 15 h11 e furo 10 H7. Interface com pino 10 g6 e folga axial 0.20 a 0.40 mm.
+A M3-PRT-307 e o quarto planeta criado pela decisao M3-AUD-001. Forma lote casado com M3-PRT-302/303/304. Diferenca maxima de largura entre os quatro planetas: 0.03 mm.
+
+REVISAO 2 - DESENHO TECNICO
+APROVADO ESTATICAMENTE: vista frontal, vista lateral, corte axial A-A, quadro da dentadura, cotas funcionais, notas, plano de inspecao, carimbo e primeiro diedro. Identificacao inequivoca como planeta 4/4.
+
+REVISAO 3 - AUTOLISP
+APROVADO ESTATICAMENTE: namespace exclusivo M3P307, limpeza seletiva M3P307-*, restauracao das variaveis, manipulador de erro, comandos de geracao e auditoria, parenteses balanceados e ausencia de referencias ao namespace M3P304.
+
+VALIDACAO DINAMICA OBRIGATORIA
+Executar no AutoCAD Mechanical 2025 PT-BR. Validar quatro engrenamentos simultaneos nas coordenadas (+/-30,0) e (0,+/-30), fase dos dentes, backlash 0.10 a 0.20 mm, giro 360 graus, contato azul 60-80% e equivalencia dimensional do lote P302/P303/P304/P307.

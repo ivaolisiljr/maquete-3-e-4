@@ -1,0 +1,30 @@
+AUDITORIA TRIPLA - M3-PRT-202 TAMPA FRONTAL R0
+
+{
+  "parenthesis_balance": 0,
+  "minimum_balance": 0,
+  "unterminated_string": false,
+  "forbidden_variable_T": false,
+  "acadiso_lin": false,
+  "DIMDSEP": false,
+  "commands": true,
+  "views": true,
+  "critical_data": true,
+  "wrong_namespace": false,
+  "namespace_layers": 11,
+  "size": 8251
+}
+
+REVISAO 1 - ENGENHARIA E INTERFACES
+APROVADO ESTATICAMENTE COMO P0: disco OD160 x 10; piloto OD123.95 g6 x 4 para carcaca 124 H7; alojamento 35 H7 x 11 para rolamento 6202-2RS; passagem de eixo 25 H11; oito furos 6.6 em PCD148.
+Massa simplificada calculada: 1.84 kg, coerente com 1.84 kg corrigidos no carimbo.
+O piloto foi reduzido de 124 h7 nominal para 123.95 g6 de projeto, evitando sobreposição dimensional direta com a coroa OD124 h7 e permitindo folga de montagem no alojamento 124 H7. A solução ainda depende da separação axial entre o trecho da coroa e o rebaixo da tampa.
+
+REVISAO 2 - DESENHO TECNICO
+APROVADO ESTATICAMENTE: vista frontal, lateral, corte A-A, alojamento do rolamento, piloto, passagem do eixo, furação, tabela de interfaces, datums, rugosidades, montagem e inspeção.
+
+REVISAO 3 - AUTOLISP
+APROVADO ESTATICAMENTE: namespace M3P202, limpeza seletiva, tratamento de erro, restauração de variáveis, comandos próprios, parênteses balanceados e ausência de variável T, acadiso.lin, DIMDSEP e namespaces residuais.
+
+VALIDACAO DINAMICA OBRIGATORIA
+Executar no AutoCAD Mechanical 2025 PT-BR. Validar encaixe com M3-PRT-201, rolamento 6202, eixo M3-PRT-501, posição axial do solar, folga do ombro, espaço para porca/arruela, canal de O-ring e eventual retentor 15x25x5. Se o retentor for adotado, detalhar o alojamento após confirmar fabricante e catálogo.

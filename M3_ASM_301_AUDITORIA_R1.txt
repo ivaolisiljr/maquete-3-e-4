@@ -1,0 +1,33 @@
+AUDITORIA TRIPLA - M3-ASM-301 TREM PLANETARIO COMPLETO R1
+
+{
+  "parenthesis_balance": 0,
+  "minimum_balance": 0,
+  "unterminated_string": false,
+  "forbidden_variable_T": false,
+  "acadiso_lin": false,
+  "DIMDSEP": false,
+  "commands": true,
+  "four_planet_repeat": true,
+  "ninety_degree_step": true,
+  "content": true,
+  "old_three_refs": false,
+  "views": true,
+  "wrong_namespace": false,
+  "namespace_layers": 12,
+  "file_size_bytes": 7403
+}
+
+REVISAO 1 - CINEMATICA E GEOMETRIA
+APROVADO ESTATICAMENTE: coroa fixa z60, solar de entrada z20, quatro planetas z20 e porta-planetas de saida. Modulo 1.5, angulo de pressao 20 graus, raio dos centros 30 mm e PCD dos pinos 60 mm.
+Relacao ideal: i=1+60/20=4. Condicao de fase: (60+20)/4=20 inteiro. Centros: (+30,0), (0,+30), (-30,0), (0,-30). A configuracao implementa M3-AUD-001 e elimina o bloqueio matematico da versao de tres planetas.
+Geometria radial: distancia solar-planeta=(30+30)/2=30 mm; distancia coroa-planeta=(90-30)/2=30 mm.
+
+REVISAO 2 - REPRESENTACAO
+APROVADO ESTATICAMENTE: vista frontal atualizada com quatro planetas a 90 graus, corte axial, dados cinematicos, BOM com P307 e ASM-101 R1, pontos de contato, lubrificacao, backlash, folga axial e controles de aceitacao. Nao restaram referencias a tres planetas ou 120 graus.
+
+REVISAO 3 - AUTOLISP
+APROVADO ESTATICAMENTE: namespace M3A301, layers independentes para solar, quatro planetas, coroa, porta e carcaca; limpeza seletiva; manipulador de erro; restauracao de variaveis; comandos proprios; parenteses balanceados; ausencia de T, acadiso.lin e DIMDSEP.
+
+VALIDACAO DINAMICA OBRIGATORIA
+Executar no AutoCAD Mechanical 2025 PT-BR com dentes involuta reais. Confirmar quatro contatos simultaneos, ausencia de interferencia planeta-planeta, backlash 0.10-0.20 mm nos quatro pontos, variacao maxima 0.05 mm, contato azul 60-80%, giro de 360 graus, 100 voltas sem travamento e relacao medida 4:1 +/-1%.

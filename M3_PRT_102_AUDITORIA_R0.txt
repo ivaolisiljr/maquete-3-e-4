@@ -1,0 +1,29 @@
+AUDITORIA TRIPLA - M3-PRT-102 PEDESTAL FRONTAL R0
+
+{
+  "parenthesis_balance": 0,
+  "minimum_balance": 0,
+  "unterminated_string": false,
+  "forbidden_T": false,
+  "acadiso_lin": false,
+  "DIMDSEP": false,
+  "commands": true,
+  "views": true,
+  "critical_data": true,
+  "wrong_namespace": false,
+  "layers": 9,
+  "size": 8174
+}
+
+REVISAO 1 - ENGENHARIA
+P0 aprovado estaticamente: base 140x70x10, alma 120x145x10, berco R70, altura do eixo 95+/-0.10, quatro rasgos 9x14 para M8 e dois furos 9 em passo 110 para a carcaca. Solda filete a6 continua nos dois lados com E7018.
+Massa simplificada: 1.53 kg; carimbo corrigido para 1.6 kg, incluindo margem para soldas e material residual.
+
+REVISAO 2 - DESENHO
+Vistas frontal, lateral e superior, berco, rasgos, furos, solda, datums, controles, notas e plano de inspecao presentes.
+
+REVISAO 3 - AUTOLISP
+Namespace M3P102, limpeza seletiva, error handler, restauracao de variaveis, comandos proprios e parenteses balanceados. Ausencia de T, acadiso.lin, DIMDSEP e namespaces residuais.
+
+VALIDACAO DINAMICA
+Executar no AutoCAD Mechanical 2025 PT-BR. Conferir centro do eixo a 95 mm em relacao a base, compatibilidade do berco R70 com carcaca OD140, posicao dos M8, largura na placa-base 260x180, soldas, nivelamento e interferencia com tampas/protecao.

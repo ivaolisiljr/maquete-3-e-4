@@ -1,0 +1,30 @@
+AUDITORIA TRIPLA - M3-ASM-301 TREM PLANETARIO COMPLETO R0
+
+{
+  "parenthesis_balance": 0,
+  "minimum_balance": 0,
+  "unterminated_string": false,
+  "forbidden_T": false,
+  "acadiso_lin": false,
+  "DIMDSEP": false,
+  "commands": true,
+  "views": true,
+  "critical_data": true,
+  "wrong_namespace": false,
+  "layers": 12,
+  "size": 7392
+}
+
+REVISAO 1 - CINEMATICA E GEOMETRIA
+Relacao ideal confirmada: i=1+60/20=4. Distancia solar-planeta = (30+30)/2=30 mm; relacao da engrenagem interna tambem coerente: (90-30)/2=30 mm.
+ALERTA CRITICO: para tres planetas igualmente espacados, o criterio classico de fase (ZR+ZS)/N = 80/3 = 26.667 nao e inteiro. Portanto, tres planetas a 120 graus com engrenagens identicas poderao nao engrenar simultaneamente sem indexacao angular especifica, correção de fase ou alteracao da quantidade de planetas/dentes. O desenho nao declara essa configuracao liberada.
+A alternativa anteriormente estudada com quatro planetas satisfaz 80/4=20 inteiro, mas conflita com a arquitetura atual de tres pinos. A decisao deve ser tomada apos simulacao de engrenamento no CAD.
+
+REVISAO 2 - REPRESENTACAO
+Vista frontal do trem, corte axial, componentes, contatos, dados cinemáticos, sentido funcional, lubrificacao e criterios de aceitacao presentes.
+
+REVISAO 3 - AUTOLISP
+Namespace M3A301, layers separadas para solar, planetas, coroa, porta e carcaca, limpeza seletiva, tratamento de erro, restauracao de variaveis, comandos proprios e parenteses balanceados.
+
+BLOQUEIO DE LIBERACAO
+Nao fabricar placas, pinos ou engrenagens finais antes de validar a fase simultanea dos tres planetas. Executar no AutoCAD Mechanical 2025 PT-BR uma montagem com dentes involuta reais. Se houver conflito, preferir retornar a quatro planetas a 90 graus ou revisar numeros de dentes sem perder a relacao 4:1.

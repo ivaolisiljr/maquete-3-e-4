@@ -1,0 +1,47 @@
+AUDITORIA TRIPLA - M3-PRT-304 ENGRENAGEM PLANETARIA 3 - R0
+
+{
+  "parenthesis_balance": 0,
+  "minimum_parenthesis_balance": 0,
+  "unterminated_string": false,
+  "forbidden_variable_T": false,
+  "contains_acadiso_lin": false,
+  "contains_DIMDSEP": false,
+  "wrong_piece_refs": [],
+  "generate_command": true,
+  "audit_command": true,
+  "views": {
+    "VISTA FRONTAL": true,
+    "VISTA LATERAL": true,
+    "CORTE A-A": true,
+    "DETALHE B": true
+  },
+  "functional_data": {
+    "%%c10 H7": true,
+    "15 h11": true,
+    "0,08 MAX": true,
+    "0,10-0,20": true,
+    "0,20-0,40": true
+  },
+  "matched_set_refs": {
+    "P302/P303/P304": true,
+    "LOTE CASADO": true
+  },
+  "namespace_layers": 12,
+  "file_size_bytes": 12708
+}
+
+REVISAO 1 - GEOMETRIA E INTERFACES
+APROVADO ESTATICAMENTE: m=1.5; z=20; alfa=20 graus; d=30.000; da=33.000; df=26.250; db=28.191; largura 15 h11; furo 10 H7.
+Interface: pino planetario 10 g6; folga axial do conjunto 0.20 a 0.40 mm.
+A M3-PRT-304 completa o lote casado com M3-PRT-302 e M3-PRT-303; diferenca maxima de largura entre as tres pecas: 0.03 mm.
+
+REVISAO 2 - REPRESENTACAO TECNICA
+APROVADO ESTATICAMENTE: vista frontal, vista lateral, corte axial A-A, quadro da dentadura, cotas funcionais, notas, plano de inspecao, carimbo e primeiro diedro.
+Verificadas separacao entre vista lateral e corte, hachura apenas no material, furo sem hachura, linhas de centro e ausencia de referencias graficas residuais.
+
+REVISAO 3 - AUTOLISP
+APROVADO ESTATICAMENTE: namespace exclusivo M3P304, limpeza seletiva M3P304-*, restauracao das variaveis, manipulador de erro, comandos de geracao e auditoria, parenteses balanceados e ausencia de referencias residuais de outras pecas.
+
+VALIDACAO DINAMICA OBRIGATORIA
+Executar no AutoCAD Mechanical 2025 PT-BR. Validar engrenamento simultaneo solar-planeta-coroa, backlash 0.10 a 0.20 mm, giro de 360 graus, folga axial 0.20 a 0.40 mm, espacamento angular de 120 graus e equivalencia dimensional do lote P302/P303/P304.
